@@ -15,6 +15,7 @@ public class QueueSender {
 	private Queue queue;
 	
 	public void send(String input) {
+		System.out.println("Enviando mensagem:"+input);
 		rabbitTemplate.convertAndSend(this.queue.getName(),input);
 	}
 }
