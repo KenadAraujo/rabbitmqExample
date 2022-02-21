@@ -8,7 +8,6 @@ public class RabbitmqExampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RabbitmqExampleApplication.class, args);
-		
 	}
 
 }
